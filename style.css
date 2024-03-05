@@ -94,3 +94,16 @@ form{
     cursor: pointer;
     display: none;
 }
+
+@media screen and (max-width: 768px){
+    .Search-result{
+        width: 45%;
+    }
+}
+
+@media screen and (max-width: 480px){
+    .Search-result{
+        width: 100%;
+    }
+}
+
