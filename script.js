@@ -26,7 +26,7 @@ async function searchImages(){
         imageWrapper.classList.add("Search-result");
         const image = document.createElement("img");
         image.src = result.urls.small;
-        image.alt = result.alt.description;
+        image.alt = result.alt_description;
         const imageLink = Document.createElement("a");
         imageLink.href = result.links.html;
         imageLink.target = "_blank";
