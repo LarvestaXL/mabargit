@@ -54,14 +54,15 @@ form{
     max-width: 1200px;
     margin: 0 auto;
 }
-.Search-result{
-    margin-bottom: 60px;
+.Search-result {
+    margin-bottom: 20px; 
     width: 30%;
-    height: 100%;
+    height: auto; 
     border-radius: 10px;
     box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);
     overflow: hidden;
 }
+
 
 .Search-result  img{
     width: 100%;
@@ -106,4 +107,3 @@ form{
         width: 100%;
     }
 }
-
